@@ -14,9 +14,14 @@
 
 }
 
+
+h2 {
+    line-height: 1.8em;
+}
+
 p {
     font-size: 1.2em;
-    line-height: 2em;
+    line-height: 2.1em;
 }
 
 .navbar {
