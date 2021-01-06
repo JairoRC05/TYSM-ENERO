@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;800&display=swap');
+@import url('footer.css');
+@import url('backgrounds.css');
+@import url('sizes.css');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+
+
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.navbar {
+    width: 100%;
+
+    z-index: 99999;
+}
+
+
+.nav-link:hover {
+    background: rgba(0, 0, 0, 0.26);
+    /* margin: 5px; */
+    border-radius: 2px;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 750;
+    letter-spacing: 2px;
+}
+
+/* .navbar ul.nav {} */
+
+.navbar ul.nav li:hover {
+    background: rgb(255, 252, 252);
+    border-radius: 5em;
+    color: #fff;
+}
+
+.navbar ul.nav li a {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a {
+
+    color: #fff;
+}
+
+/*Banner*/
+#bannerInicio {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#bannerInicio .carousel-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+#bannerInicio .carousel-inner:before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.45);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#bannerInicio .carousel-inner .carousel-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url("../images/Banner/cuarto-tono.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bannerInicio .carousel-inner .carousel-item:nth-child(2) {
+    background: url("../images/playa2.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bannerInicio .carousel-inner .carousel-item:nth-child(3) {
+    background: url("../images/playa3.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bannerInicio .carousel-inner .carousel-item .info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+#bannerInicio .carousel-inner .carousel-item h1 {
+    height: auto;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: 5.5em;
+    font-weight: 750;
+}
+
+#bannerInicio .carousel-inner .carousel-item p {
+    height: auto;
+    color: #ccc;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #bannerInicio {
+        position: relative;
+        height: 40vh !important;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    #bannerInicio {
+        position: relative;
+        height: 50vh;
+
+        width: 100%;
+    }
+
+    #bannerInicio .carousel-inner .carousel-item h1 {
+        height: auto;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        font-size: 4em;
+        font-weight: 750;
+    }
+
+
+    #bannerInicio .carousel-inner .carousel-item p {
+        height: auto;
+        color: #ccc;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    #bannerInicio .carousel-inner .carousel-item {
+        position: relative;
+        width: 100%;
+        background: url("../images/Banner/cuarto-tono.png");
+        background-size: 100% 100%;
+        background-position: center;
+        background-attachment: cover;
+
+    }
+
+    #bannerInicio .carousel-inner .carousel-item:nth-child(2) {
+        background: url("../images/slider/FullBanner.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-attachment: cover;
+    }
+
+    #bannerInicio .carousel-inner .carousel-item:nth-child(3) {
+        background: url("../images/slider/FullBanner.jpg ");
+        background-size: 100% 100%;
+        background-position: center;
+        background-attachment: cover;
+    }
+}

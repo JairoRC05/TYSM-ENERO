@@ -1,0 +1,97 @@
+.bg-blue {
+    background: url("../images/inicio/BG1Blue.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-pink {
+    background: url("../images/inicio/BG2Pink.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-red {
+    background: url("../images/tono/BG1Red.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-green {
+    background: url("../images/tono/BG2Green.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-purple {
+    background: url("../images/anunciate/BG1Purple.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-orange {
+    background: url("../images/anunciate/BG2Orange.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-orange-fruit {
+    background-color: #EE833B;
+}
+
+.bg-index {
+    background-color: rgba(0, 0, 0, 0.644) !important;
+    -webkit-backdrop-filter: saturate(120%) blur(10px);
+    backdrop-filter: saturate(120%) blur(10px);
+    transition: background-color 200ms linear;
+}
+
+
+.bg-cuarto-lg {
+    background: url("../images/inicio/PortadaTablet.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-cuarto-md {
+    background: url("../images/inicio/PortadaTablet.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
