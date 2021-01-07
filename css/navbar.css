@@ -1,6 +1,6 @@
 nav {
     height: 70px;
-    background: #21293C !important;
+
     display: flex;
     justify-content: space-between;
     font-weight: 600;
@@ -17,9 +17,10 @@ nav {
 .enlaces {
     display: flex;
     height: 100%;
-    width: 30%;
+    width: auto;
     justify-content: space-around;
     align-items: center;
+
 
 }
 
@@ -30,6 +31,7 @@ nav {
     transition: 0.7s ease-out;
     color: #fff;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .enlaces a:hover,
@@ -72,7 +74,6 @@ header .textos h2 {
         justify-content: center;
         align-items: center;
         z-index: 100;
-
     }
 
     header .textos h1 {

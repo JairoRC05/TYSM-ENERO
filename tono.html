@@ -13,13 +13,15 @@
     <link rel="icon" href="images/Tfavicon.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Toño | Toño y su Mariachi</title>
 </head>
 
 <body>
 
-    <nav class="fixed-top">
+    <nav class="fixed-top bg-color">
         <div class="logo">
 
         </div>
@@ -45,8 +47,8 @@
 
     <section>
         <div class="container-fluid bg-red d-xl-block d-none">
-            <div class="container">
-                <div class="form-row d-flex justify-content-center align-items-center my-xl-5">
+            <div class="container animate__animated animate__lightSpeedInRight">
+                <div class=" form-row d-flex justify-content-center align-items-center my-xl-5">
                     <div class="form-group col-xl-6 col-lg-6 col-12">
                         <h2><strong>Quién es Toño</strong></h2>
                         <p>
@@ -117,7 +119,7 @@
 
     <section>
         <div class="container-fluid my-xl-5 d-xl-block  d-none">
-            <div class="container">
+            <div class="container animate__animated animate__lightSpeedInLeft">
                 <div class="form-row  my-xl-5">
                     <div class="form-group col-xl-6 col-lg-6">
                         <h2><strong>Historia</strong></h2>
@@ -198,9 +200,9 @@
         </div>
     </section>
 
-    <section>
+    <section data-aos="fade-up">
         <div class="container-fluid bg-green d-xl-block d-none">
-            <div class="container my-xl-5">
+            <div class="container my-xl-3">
                 <div class="form-row">
                     <div class="form-group col-lg-6 col-xl-6">
                         <h2><strong>Crecimiento y expansión</strong></h2>
@@ -287,7 +289,7 @@
                         son el turismo, nuestra cultura, la salud y
                         la buena comida."
                     </p>
-                    <img src="/images/Banner/tono-logo.png" width="20%" class=" d-inline-block " alt="" loading="lazy">
+                    <img src="images/Banner/tono-logo.png" width="20%" class=" d-inline-block " alt="" loading="lazy">
                 </div>
 
                 <div class="col-xs-6 col-md-3">
@@ -370,18 +372,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        // Look for .hamburger
-        var hamburger = document.querySelector(".hamburger");
-        // On click
-        hamburger.addEventListener("click", function () {
-            // Toggle class "is-active"
-            hamburger.classList.toggle("is-active");
-            // Do something else, like open/close menu
-        });
-    </script>
 
 
 </body>

@@ -154,8 +154,6 @@ p {
 }
 
 @media only screen and (max-width: 1024px) {
-
-
     #bannerInicio {
         position: relative;
         height: 50vh;
