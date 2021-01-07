@@ -5,6 +5,7 @@ nav {
     justify-content: space-between;
     font-weight: 600;
     width: 100%;
+    color: #fff;
 }
 
 .icono {
@@ -71,13 +72,8 @@ header .textos h2 {
     .icono {
         display: flex;
         justify-content: center;
-        height: 70px;
         align-items: center;
-        color: #fff;
-        background: transparent;
-        padding: 20px;
         z-index: 100;
-        cursor: pointer;
 
     }
 
@@ -122,9 +118,7 @@ header .textos h2 {
         margin-left: 20px;
     }
 
-    .icono {
-        margin-right: 20px;
-    }
+
 
     header .textos h1 {
         font-size: 65px;
