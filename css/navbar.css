@@ -8,6 +8,8 @@ nav {
     color: #fff;
 }
 
+
+
 .icono {
     display: none;
 }
@@ -37,15 +39,11 @@ nav {
 }
 
 nav .logo {
-    display: flex;
-    justify-content: center;
-    height: 70px;
-    align-items: center;
-    color: #fff;
-    background: transparent;
-    padding: 20px;
-    z-index: 100;
-    cursor: pointer;
+    height: 100%;
+    padding: 5px;
+    margin-left: 5px;
+
+
 }
 
 

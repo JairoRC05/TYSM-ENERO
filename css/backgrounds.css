@@ -77,7 +77,7 @@
 
 
 .bg-cuarto-lg {
-    background: url("../images/inicio/PortadaTablet.png") no-repeat center;
+    background: url("../images/inicio/PortadaTablet.png") fixed no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,7 +87,7 @@
 }
 
 .bg-cuarto-md {
-    background: url("../images/inicio/PortadaTablet.png") no-repeat center;
+    background: url("../images/inicio/PortadaTablet.png") fixed no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
