@@ -15,7 +15,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 50px 10px;
+    padding: 50px;
     height: 100%;
     width: 100%;
 }
@@ -64,8 +64,23 @@
     width: 100%;
 }
 
+.bg-orange-up {
+    background: url("../images/personajes/BG1Responsive.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
 .bg-orange-fruit {
     background-color: #EE833B;
+}
+
+.bg-rose {
+    background-color: #FFD1E6;
 }
 
 .bg-index {
