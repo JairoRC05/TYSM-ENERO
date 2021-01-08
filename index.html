@@ -157,6 +157,19 @@
         </div>
     </section>
 
+
+    <form action="enviar.php" method="post">
+        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+        <div class="clear"></div>
+        <div class="col-md-8">
+            <button type="submit" class="btn btn-primary">ENVIAR </button>
+        </div>
+    </form>
+    </div>
+
     <section data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <div class="container-fluid bg-pink  d-xl-block d-none">
             <div class="container">
@@ -412,32 +425,43 @@
                     <h5 class="modal-title"><strong>CONTÁCTANOS</strong></h5>
                 </div>
                 <div class="modal-body">
-                    <form>
+
+
+
+                    <form action="enviar.php" method="post">
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <label for="inputEmail4">Nombre</label>
-                                <input type="text" class="form-control" id="inputEmail4">
+                                <label for="inputEmail4">Nombre completo</label>
+                                <input type="text" class="form-control" id="name" name="name">
                             </div>
                             <div class="form-group col-md-12">
-                                <label for="inputPassword4">Apellidos</label>
-                                <input type="text" class="form-control" id="inputPassword4">
+                                <label for="inputPassword4">Correo electrónico</label>
+                                <input type="text" class="form-control" id="mail" name="mail">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputAddress">Correo electrónico</label>
-                            <input type="email" class="form-control" id="inputAddress" placeholder="nombre@gmail.com">
+                            <label for="inputAddress">Teléfono</label>
+                            <input type="email" class="form-control" id="phone" name="phone" placeholder=""">
                         </div>
-                        <div class="form-group">
+                        <div class=" form-group">
                             <label for="inputAddress2">Mensaje</label>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                            <textarea class="form-control" aria-label="With textarea" id="message"
+                                name="message"></textarea>
                         </div>
 
+                        <button type="submit" class="btn btn-success w-100" data-dismiss="modal">
+                            ENVIAR <i class="fas fa-send"></i>
+                        </button>
 
                     </form>
+
+
+
+
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success w-100" data-dismiss="modal">
+                    <button type="submit" class="btn btn-success w-100" data-dismiss="modal">
                         ENVIAR <i class="fas fa-send"></i>
                     </button>
 
