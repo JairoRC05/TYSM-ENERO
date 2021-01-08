@@ -41,7 +41,7 @@
             <a href="tono.html">TOÑO</a>
             <a href="personajes.html">PERSONAJES</a>
             <a href="anunciate.html">ANÚNCIATE</a>
-            <a href="#">CONTACTO</a>
+            <a data-toggle="modal" data-target="#modalContacto">CONTACTO</a>
         </div>
     </nav>
 
@@ -479,25 +479,42 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+
+    <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header text-center ">
-                    <h5 class="modal-title"><strong>MENÚ</strong></h5>
+                <div class="modal-header text-center">
+                    <h5 class="modal-title"><strong>CONTÁCTANOS</strong></h5>
                 </div>
                 <div class="modal-body">
-                    <a href="index.html" type="button" class="btn w-100">INICIO</a>
-                    <a href="tono.html" type="button" class="btn w-100">¿QUIEN ES TOÑO?</a>
-                    <a href="personajes.html" type="button" class="btn w-100">PERSONAJES</a>
-                    <a href="anunciate.html" type="button" class="btn w-100">ANUNCIATE</a>
-                    <a type="button" class="btn w-100" data-target="#modalContacto" data-toggle="modal"
-                        data-dismiss="modal">CONTACTO</a>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputEmail4">Nombre</label>
+                                <input type="text" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="inputPassword4">Apellidos</label>
+                                <input type="text" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Correo electrónico</label>
+                            <input type="email" class="form-control" id="inputAddress" placeholder="nombre@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Mensaje</label>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+
+
+                    </form>
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger w-100" data-dismiss="modal">
-                        <i class="fas fa-times"></i>
+                    <button type="button" class="btn btn-success w-100" data-dismiss="modal">
+                        ENVIAR <i class="fas fa-send"></i>
                     </button>
 
                 </div>
