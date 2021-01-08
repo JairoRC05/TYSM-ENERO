@@ -42,6 +42,17 @@
     width: 100%;
 }
 
+.bg-orange-b {
+    background: url("../images/personajes/BG2Orange.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
 .bg-purple {
     background: url("../images/anunciate/BG1Purple.svg") no-repeat center;
     -webkit-background-size: cover;
@@ -64,8 +75,19 @@
     width: 100%;
 }
 
+.bg-orange-r {
+    background: url("../images/personajes/BGOrange.svg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 10px;
+    height: 100%;
+    width: 100%;
+}
+
 .bg-orange-up {
-    background: url("../images/personajes/BG1Responsive.svg") no-repeat center;
+    background: url("../images/personajes/BG2Responsive.svg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
