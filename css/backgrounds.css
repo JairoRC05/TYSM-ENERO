@@ -120,7 +120,7 @@
 
 horizontalmente */
 
-    background-position: center center;
+    background-position: top center;
 
     /* Para que la imagen de fondo no se repita */
 
@@ -132,7 +132,7 @@ horizontalmente */
 
     /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
 
-    background-size: cover;
+    background-size: 100vmax 100vmax;
 
     /* Se muestra un color de fondo mientras se está cargando la imagen
 
