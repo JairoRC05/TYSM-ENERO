@@ -147,6 +147,16 @@
 }
 
 
+.info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1024px) {
     .bg-cuarto-lg {
         background-image: url("../images/inicio/PortadaTablet.png");

@@ -1,9 +1,3 @@
-body {
-    margin: 0;
-    overflow-Y: hidden;
-    /*quitar el scroll*/
-}
-
 .charger {
     position: absolute;
     top: 0;

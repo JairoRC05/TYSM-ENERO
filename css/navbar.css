@@ -1,4 +1,4 @@
-nav {
+/* nav {
     height: 70px;
 
     display: flex;
@@ -89,11 +89,11 @@ header .textos h2 {
         padding: 15em 0;
         transition: all 1s ease;
         background: #000000;
-        /* fallback for old browsers */
+      
         background: -webkit-linear-gradient(to right, #3f3e3d, #181717);
-        /* Chrome 10-25, Safari 5.1-6 */
+
         background: linear-gradient(to right, #000000, #030303);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
 
     }
 
@@ -122,4 +122,4 @@ header .textos h2 {
     header .textos h1 {
         font-size: 65px;
     }
-}
+} */

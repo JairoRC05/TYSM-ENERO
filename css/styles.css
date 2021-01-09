@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;800&display=swap');
+
+@import url('nav.css');
 @import url('footer.css');
 @import url('backgrounds.css');
 @import url('sizes.css');
@@ -6,6 +8,7 @@
 @import url('hamburguer.css');
 @import url('cards.css');
 @import url('charger.css');
+@import url('slider.css');
 
 
 
@@ -21,110 +24,4 @@ h2 {
 p {
     font-size: 1.2em;
     line-height: 2.1em;
-}
-
-.navbar {
-    width: 100%;
-    z-index: 99999;
-}
-
-
-.nav-link:hover {
-    background: rgba(0, 0, 0, 0.26);
-    /* margin: 5px; */
-    border-radius: 2px;
-    display: block;
-    padding: .5rem 1rem;
-}
-
-.navbar .logo {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: 750;
-    letter-spacing: 2px;
-}
-
-/* .navbar ul.nav {} */
-
-.navbar ul.nav li:hover {
-    background: rgb(255, 252, 252);
-    border-radius: 5em;
-    color: #fff;
-}
-
-.navbar ul.nav li a {
-    color: #fff;
-    font-size: 1em;
-    font-weight: 500;
-}
-
-.navbar ul.nav li.active a,
-.navbar ul.nav li:hover a {
-
-    color: #fff;
-}
-
-/*slider*/
-#bannerInicio {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-}
-
-#bannerInicio .carousel-inner {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: #000;
-}
-
-#bannerInicio .carousel-inner:before {
-    position: absolute;
-    content: "";
-    background: rgba(0, 0, 0, 0.45);
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-}
-
-#bannerInicio .carousel-inner .carousel-item {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: url("../images/inicio/PortadaTelefono.png");
-    background-size: 100% 100%;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-#bannerInicio .carousel-inner .carousel-item .info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    height: auto;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-}
-
-#bannerInicio .carousel-inner .carousel-item h1 {
-    height: auto;
-    color: #fff;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    font-size: 5.5em;
-    font-weight: 750;
-}
-
-#bannerInicio .carousel-inner .carousel-item p {
-    height: auto;
-    color: #ccc;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 500;
 }
