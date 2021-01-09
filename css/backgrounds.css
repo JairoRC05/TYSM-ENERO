@@ -115,32 +115,11 @@
 
 .bg-cuarto-lg {
     background-image: url("../images/inicio/PortadaTablet.png");
-
-    /* Para dejar la imagen de fondo centrada, vertical y
-
-horizontalmente */
-
     background-position: top center;
-
-    /* Para que la imagen de fondo no se repita */
-
     background-repeat: no-repeat;
-
-    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
-
     background-attachment: fixed;
-
-    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
-
     background-size: 100vmax 100vmax;
-
-    /* Se muestra un color de fondo mientras se está cargando la imagen
-
-de fondo o si hay problemas para cargarla */
-
     background-color: #66999;
-
-
 }
 
 .bg-cuarto-md {
@@ -156,4 +135,29 @@ de fondo o si hay problemas para cargarla */
 .bg-color.scrolled {
     background: #21293C !important;
     ;
+}
+
+
+.bg-cuarto-lg {
+    background-image: url("../images/Banner/cuarto-tono.png");
+
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .bg-cuarto-lg {
+        background-image: url("../images/inicio/PortadaTablet.png");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100vmax 100vmax;
+        background-color: #66999;
+
+    }
 }

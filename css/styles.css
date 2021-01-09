@@ -128,19 +128,3 @@ p {
     font-size: 1.2em;
     font-weight: 500;
 }
-
-
-
-
-
-
-@media only screen and (max-width: 1024px) {
-
-
-    #bannerInicio {
-        position: relative;
-        height: 100vh;
-        width: 100%;
-    }
-
-}
