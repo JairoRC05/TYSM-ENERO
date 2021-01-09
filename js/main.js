@@ -55,3 +55,11 @@ window.addEventListener('click',function(e){
 
         //AOS
          AOS.init();
+
+
+
+         var container = document.getElementById('charger');
+setTimeout(function() {
+	container.classList.add('cerrar');
+  document.body.style.overflowY= "visible";// despueés de cargar le devolvemos el scroll
+}, 4000);
