@@ -64,7 +64,7 @@ p {
     color: #fff;
 }
 
-/*Banner*/
+/*slider*/
 #bannerInicio {
     position: relative;
     height: 100vh;
@@ -147,64 +147,15 @@ p {
 
 
 
-@media only screen and (max-width: 768px) {
-    #bannerInicio {
-        position: relative;
-        height: 40vh !important;
-        width: 100%;
-    }
-}
 
 @media only screen and (max-width: 1024px) {
-    #bannerInicio {
-        position: relative;
-        height: 50vh;
-
-        width: 100%;
-    }
-
-    #bannerInicio .carousel-inner .carousel-item h1 {
-        height: auto;
-        color: #fff;
-        width: 100%;
-        z-index: 1;
-        text-align: center;
-        font-size: 4em;
-        font-weight: 750;
-    }
-
-
-    #bannerInicio .carousel-inner .carousel-item p {
-        height: auto;
-        color: #ccc;
-        width: 100%;
-        z-index: 1;
-        text-align: center;
-        font-size: 1em;
-        font-weight: 500;
-    }
-
     #bannerInicio .carousel-inner .carousel-item {
         position: relative;
+        height: 100%;
         width: 100%;
-        background: url("../images/Banner/cuarto-tono.png");
+        background: url("../images/inicio/PortadaTelefono.png");
         background-size: 100% 100%;
         background-position: center;
-        background-attachment: cover;
-
-    }
-
-    #bannerInicio .carousel-inner .carousel-item:nth-child(2) {
-        background: url("../images/slider/FullBanner.jpg");
-        background-size: 100% 100%;
-        background-position: center;
-        background-attachment: cover;
-    }
-
-    #bannerInicio .carousel-inner .carousel-item:nth-child(3) {
-        background: url("../images/slider/FullBanner.jpg ");
-        background-size: 100% 100%;
-        background-position: center;
-        background-attachment: cover;
+        background-attachment: fixed;
     }
 }
