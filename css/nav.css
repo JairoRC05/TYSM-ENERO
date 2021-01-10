@@ -5,10 +5,14 @@
     visibility: hidden;
 }
 
+
+
+
+
 .nav-open .main-menu {
     opacity: 1;
     visibility: visible;
-    background: rgba(0, 0, 0, 0.92);
+    background: rgba(0, 0, 0, 0.966);
 }
 
 .main-menu .nav li a {
@@ -26,6 +30,14 @@
     -o-animation-timing-function: cubic-bezier(.45, .005, 0, 1);
     animation-timing-function: cubic-bezier(.45, .005, 0, 1);
 }
+
+
+.navbar-brand {
+    color: #FFF;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
 
 .nav-open .main-menu .nav li {
     opacity: 1;
