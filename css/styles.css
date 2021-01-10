@@ -2,6 +2,7 @@
 
 @import url('nav.css');
 @import url('footer.css');
+@import url('buttons.css');
 @import url('backgrounds.css');
 @import url('sizes.css');
 @import url('navbar.css');
@@ -9,6 +10,7 @@
 @import url('cards.css');
 @import url('charger.css');
 @import url('slider.css');
+@import url('hover-min.css');
 
 
 
