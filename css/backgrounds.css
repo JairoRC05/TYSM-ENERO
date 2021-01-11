@@ -157,6 +157,20 @@
     text-align: center;
 }
 
+
+
+.room {
+    background-image: url("../images/Banner/cuarto-tono.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
 @media only screen and (max-width: 1024px) {
     .bg-cuarto-lg {
         background-image: url("../images/inicio/PortadaTablet.png");
@@ -166,5 +180,19 @@
         background-size: 100vmax 100vmax;
         background-color: #66999;
 
+    }
+}
+
+
+
+@media (min-width: 601px) {
+    #page {
+        background: url('images/white-zigzag.png') repeat-x;
+    }
+}
+
+@media (max-width: 600px) {
+    #page {
+        background: url('images/white-zigzag-mobile.png') repeat-x;
     }
 }
