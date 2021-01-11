@@ -1,64 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"
-        id="bootstrap-css">
-
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/Tfavicon.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
+        rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Inicio | Toño y su Mariachi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" href="images/Tfavicon.ico" />
+    <link rel="stylesheet" href="css/styles.css">
+    <!------ Include the above in your HEAD tag ---------->
 </head>
 
 <body>
-
-    <!-- <div class="charger" id="charger">
-        <div class="preloader">
-            <p>Cargando</p>
-        </div>
-    </div> -->
-
-    <!-- <nav class="fixed-top bg-color">
-        <div class="logo">
-        </div>
-
-        <div class="icono" id="icono">
-            <button class="hamburger hamburger--vortex-r" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-        </div>
-
-        <div class="enlaces uno" id="enlaces">
-            <a href="index.html" class="active ">INICIO</a>
-            <a href="tono.html" class="">TOÑO</a>
-            <a href="personajes.html" class="">PERSONAJES</a>
-            <a href="anunciate.html" class="">ANÚNCIATE</a>
-            <a data-toggle="modal" data-target="#modalContacto">CONTACTO</a>
-        </div>
-    </nav> -->
-
-
-    <header class="head-main">
-        <div class="navbar navbar-dark  box-shadow fixed-top">
-            <div class="container d-flex justify-content-between">
+    <header class="head-main fixed-top ">
+        <div class="navbar navbar-dark box-shadow bg-color" id="navbar">
+            <div class="container d-flex justify-content-between ">
                 <a href="#" class="navbar-brand d-flex align-items-center">
-                    <strong></strong>
+                    <strong>INICIO</strong>
                 </a>
-                <a class="nav-button ml-auto mr-4"><span
+                <a class="nav-button ml-auto"><span
                         id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
             </div>
         </div>
@@ -67,96 +32,46 @@
         <div class="fixed-top main-menu">
             <div class="flex-center p-5">
                 <ul class="nav flex-column">
-                    <li class="nav-item delay-1"><a class="nav-link" href="#">HOME</a></li>
-                    <li class="nav-item delay-2"><a class="nav-link" href="#">ABOUT US</a></li>
-                    <li class="nav-item delay-3"><a class="nav-link" href="#">PRODUCTS</a></li>
-                    <li class="nav-item delay-4"><a class="nav-link" href="#">APPLICATIONS</a></li>
-                    <li class="nav-item delay-5"><a class="nav-link" href="#">FACILITIES</a></li>
-                    <li class="nav-item delay-6"><a class="nav-link" href="#">QUALITY</a></li>
-                    <li class="nav-item delay-7"><a class="nav-link" href="#">CAREER</a></li>
-                    <li class="nav-item delay-8"><a class="nav-link" href="#">CONTACT US</a></li>
+                    <li class="nav-item delay-1">
+                        <a class="nav-link hvr-pulse" href="index.html"> INICIO</a>
+                    </li>
+                    <li class="nav-item delay-1">
+                        <a class="nav-link hvr-pulse" href="tono.html">TOÑO</a>
+                    </li>
+                    <li class="nav-item delay-2">
+                        <a class="nav-link hvr-pulse" href="personajes.html">PERSONAJES</a>
+                    </li>
+                    <li class="nav-item delay-3">
+                        <a class="nav-link hvr-pulse" href="anunciate.html">ANUNCÍATE</a>
+                    </li>
+                    <li class="nav-item delay-4">
+                        <a class="nav-link hvr-pulse" href="#">CONTACTO</a>
+                    </li>
                 </ul>
             </div>
         </div>
-        <!--main-menu end-->
     </header>
 
-
-
     <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
-        <!-- <ol class="carousel-indicators">
-            <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
-            <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
-            <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
-        </ol> -->
+
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img alt="First slide" class="d-none d-md-block d-lg-block d-xl-block w-100"
-                    src="images/Banner/cuarto-tono.png">
-                <img alt="First slide" class="d-block d-md-none d-lg-none d-xl-none  w-100"
+                <img alt="First slide" class="d-none d-md-none d-lg-block d-xl-block w-100"
+                    src="images/Banner/cuarto-tono.png" loading="lazy">
+                <img alt="First slide" class="d-block d-md-block d-lg-none d-xl-none w-100"
                     src="images/inicio/PortadaTelefono.png">
-                <div class="carousel-caption d-none d-lg-block">
-                    <h5>Slider One Item</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt
-                        excepturi quas vero.</p>
-                </div>
-            </div>
-        </div>
-        <!-- <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span
-                aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
-        <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span
-                aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a> -->
-
-    </div>
-
-
-
-
-
-
-    <div class="container-fluid bg-blue  d-xl-block d-lg-block d-md-block d-none" id="tono">
-        <div class="container">
-            <div class="form-row my-xl-5 my-lg-5">
-                <div class="form-group col-xl-6 col-lg-6 col-md-6">
-                    <h2><strong>¿Quién es Toño?</strong></h2>
-                    <p>
-                        Toño es un mariachi y, ¡cómo no!, es también un mexicano como cualquier otro: se
-                        levanta temprano, trabaja duro, ve por su familia y tiene dos pasiones: la música y su
-                        país,
-                        el
-                        cual
-                        recorre con su mariachi y con la alegría de sus sones.
-                    </p>
-
-                    <h2><strong>¿Qué es Toño y su Mariachi?</strong></h2>
-
-                    <p>
-                        Es una marca 100% mexicana que, a través de productos, postales, videos e infografías en
-                        redes
-                        sociales,
-                        promueve entre una amplia comunidad los valores de nuestra sociedad, así como lo mejor
-                        del
-                        turismo,
-                        nuestra cultura, la salud y la buena comida de México.
-                    </p>
-
-                    <a href="tono.html" class="btn btn-dark btn-lg rounded-pill w-75"><strong>¡Pasenle a lo
-                            barrido!</strong></a>
-
-                </div>
-
-                <div class="form-group col-xl-6 col-lg-6 col-md-6 d-flex justify-content-center">
-                    <div><img src="images/inicio/T1.png" class="img-fluid" alt="" loading="lazy"></div>
+                <div class="carousel-caption">
+                    <img alt="First slide" class="img-fluid" src="images/Banner/tono-logo.png" loading="lazy">
                 </div>
             </div>
         </div>
     </div>
 
-    <img src="images/inicio/BG1R.png" alt="" class="w-100 d-block d-xl-none d-lg-none d-md-none">
-    <div class="container-fluid  d-xl-none d-lg-none d-md-none d-block" id="tono">
-        <div class="container">
-            <div class="form-row my-5">
-                <div class="form-group col-12">
+    <div class="container-fluid d-flex bg-blue">
+        <div class="container ">
+            <div class="row d-block">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-1 float-left py-2">
+
                     <h2><strong>¿Quién es Toño?</strong></h2>
                     <p>
                         Toño es un mariachi y, ¡cómo no!, es también un mexicano como cualquier otro: se
@@ -168,21 +83,16 @@
                     </p>
 
                 </div>
-                <div class="form-group col-12 d-flex justify-content-center">
-                    <div><img src="images/inicio/T1.png" class="img-fluid" alt=""></div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-3 float-right py-2 pb-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="images/inicio/T1.png" class="img-fluid" alt="" loading="lazy" />
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group col-md-6 offset-md-3">
-                    <a href="tono.html" class="btn btn-dark btn-md rounded-pill w-100">
-                        <strong>
-                            ¡Pasenle a lo barrido!
-                        </strong>
-                    </a>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-12">
-                    <h2><strong>¿Qué es Toño y su Mariachi?</strong></h2>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-2 float-left py-2">
 
+                    <h2><strong>¿Qué es Toño y su Mariachi?</strong></h2>
                     <p>
                         Es una marca 100% mexicana que, a través de productos, postales, videos e infografías en
                         redes
@@ -192,173 +102,114 @@
                         turismo,
                         nuestra cultura, la salud y la buena comida de México.
                     </p>
+
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 order-4 float-left py-2">
+                    <div class="d-flex justify-content-center justify-content-xl-start">
+                        <a href="tono.html" class="btn btn-dark btn-lg rounded-pill w-75 hvr-grow-shadow"><strong>Ver
+                                más</strong>
+                        </a>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-
-
-    <section data-aos-easing="linear" data-aos-duration="1500">
-        <div class="container-fluid bg-pink  d-xl-block d-lg-block  d-md-block d-none">
-            <div class="container">
-                <div class="form-row my-xl-5 my-lg-5">
-                    <div class="form-group col-xl-6 col-lg-6 col-md-6">
-                        <h2><strong>¿Dónde está Toño?</strong></h2>
-                        <p>
-                            Toño vive principalmente en una página de Facebook,
-                            desde la cual diariamente comparte con sus miles de
-                            "toñofans" todo lo que ha aprendido en sus años de
-                            recorrer el país mediante postales, infografías y videos. Ahí
-                            también puedes divertirte descargando y usando sus
-                            stickers para WhatsApp.
-                        </p>
-
-
-                        <p>
-                            Toño y su mariachi también está en Instagram y tiene un
-                            canal de YouTube, donde puedes mirar algunos de sus
-                            videos. Y como no se sabe estar quieto, muy pronto lo
-                            verás jugándosela como protagonista de un videojuego y,
-                            si te animas, incluso podrá acompañarte en el estampado
-                            de una prenda o algún objeto útil.
-                        </p>
-                        <a href="tono.html" class="btn btn-dark btn-lg rounded-pill w-75"><strong>¡El público me
-                                aclama!</strong></a>
-
+    <div class="container-fluid d-flex">
+        <div class="container my-5">
+            <div class="row d-block">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-2 float-right py-2">
+                    <h2><strong>¿Dónde está Toño?</strong></h2>
+                    <p>
+                        Toño vive principalmente en una página de Facebook,
+                        desde la cual diariamente comparte con sus miles de
+                        "toñofans" todo lo que ha aprendido en sus años de
+                        recorrer el país mediante postales, infografías y videos. Ahí
+                        también puedes divertirte descargando y usando sus
+                        stickers para WhatsApp.
+                    </p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-1 float-left py-2 pb-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="images/inicio/T2.png" class="img-fluid" alt="">
+                        </div>
                     </div>
+                    <div class="d-block d-xl-none d-lg-none py-2">
+                        <div class="d-flex justify-content-center justify-content-xl-start py-2">
+                            <a href="anunciate.html" class="btn btn-dark btn-lg rounded-pill w-75 hvr-grow-shadow">
+                                <i class="fab fa-facebook"> <strong>
+                                        ¡Sigueme en Facebook!
+                                    </strong></i>
 
-                    <div class="form-group col-xl-6 col-lg-6 col-md-6 d-flex justify-content-center order-first">
-                        <div> <img src="images/inicio/T2.png" class="img-fluid" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-xl-start py-2">
+                            <a href="anunciate.html" class="btn btn-dark btn-lg rounded-pill w-75 hvr-grow-shadow">
+                                <i class="fab fa-instagram"> <strong>
+                                        ¡Sigueme en Instagram!
+                                    </strong></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-2 float-right py-2">
+                    <p>
+                        Toño y su mariachi también está en Instagram y tiene un
+                        canal de YouTube, donde puedes mirar algunos de sus
+                        videos. Y como no se sabe estar quieto, muy pronto lo
+                        verás jugándosela como protagonista de un videojuego y,
+                        si te animas, incluso podrá acompañarte en el estampado
+                        de una prenda o algún objeto útil.
+                    </p>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 order-4 float-right py-2">
+                    <div class="d-flex justify-content-center justify-content-xl-start">
+                        <a href="tono.html" class="btn btn-dark btn-lg rounded-pill w-75 hvr-grow-shadow"><strong>Ver
+                                más</strong>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container-fluid d-xl-none d-lg-none d-md-none d-block">
-            <div class="container">
-                <div class="form-row my-3">
-                    <div class="form-group col-12">
-                        <h2><strong>¿Dónde está Toño?</strong></h2>
-                    </div>
-                    <div class="form-group col-12 d-flex justify-content-center">
-                        <div><img src="images/inicio/T2.png" class="img-fluid" alt=""></div>
-                    </div>
-                    <div class="form-group col-md-6 offset-md-3">
-                        <a href="anunciate.html" class="btn btn-dark btn-xl  rounded-pill w-100">
-                            <i class="fab fa-facebook"> <strong>
-                                    ¡Sigueme en Facebook!
-                                </strong></i>
+    <div class="container-fluid d-flex bg-pink">
+        <div class="container ">
+            <div class="row d-block">
+                <div class="col-xl-6 col-lg-6 col-md-6 order-1 float-left py-2">
+                    <h2><strong>¡Conoce al Mariachi!</strong></h2>
+                    <p>
+                        Movido por su amor a la música —iy pa' completar la
+                        quincena!-, Toño viaja por toda la República con el
+                        mariachi que formó con parientes y amigos. Aunque son
+                        muy distintos, juntos conocen sitios de interés, relatos,
+                        tradiciones y al tesoro más grande del país: su gente.
+                    </p>
 
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order-3 float-right py-2 pb-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <img src="images/inicio/T3.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-6 col-lg-6 col-md-6 order-4 float-left py-2">
+                    <div class="d-flex justify-content-center justify-content-xl-start">
+                        <a href="tono.html" class="btn btn-dark btn-lg rounded-pill w-75 hvr-grow-shadow"><strong>Ver
+                                más</strong>
                         </a>
                     </div>
-                    <div class="form-group col-md-6 offset-md-3">
-                        <a href="anunciate.html" class="btn btn-dark btn-md  rounded-pill w-100">
-                            <i class="fab fa-instagram"> <strong>
-                                    ¡Sigueme en Instagram!
-                                </strong></i>
-
-                        </a>
-                    </div>
-                    <div class="form-group col-12">
-                        <p>
-                            Toño vive principalmente en una página de Facebook,
-                            desde la cual diariamente comparte con sus miles de
-                            "toñofans" todo lo que ha aprendido en sus años de
-                            recorrer el país mediante postales, infografías y videos. Ahí
-                            también puedes divertirte descargando y usando sus
-                            stickers para WhatsApp.
-                        </p>
-
-
-                        <p>
-                            Toño y su mariachi también está en Instagram y tiene un
-                            canal de YouTube, donde puedes mirar algunos de sus
-                            videos. Y como no se sabe estar quieto, muy pronto lo
-                            verás jugándosela como protagonista de un videojuego y,
-                            si te animas, incluso podrá acompañarte en el estampado
-                            de una prenda o algún objeto útil.
-                        </p>
-
-
-                    </div>
-
-                    <div class="form-group col-md-6 offset-md-3">
-                        <a href="anunciate.html" class="btn btn-dark btn-md  rounded-pill w-100">
-                            <strong>
-                                ¡El público me aclama!
-                            </strong>
-                        </a>
-                    </div>
-
-
                 </div>
             </div>
         </div>
-    </section>
-
-    <section data-aos-easing="linear" data-aos-duration="1500">
-        <div class="container-fluid  d-xl-block d-lg-block d-md-block d-none">
-            <div class="container">
-                <div class="form-row my-xl-5 my-lg-5 my-5">
-                    <div class="form-group col-xl-6 col-lg-6 col-md-6 ">
-                        <h2><strong>¡Conoce al Mariachi!</strong></h2>
-                        <p>
-                            Movido por su amor a la música —iy pa' completar la
-                            quincena!-, Toño viaja por toda la República con el
-                            mariachi que formó con parientes y amigos. Aunque son
-                            muy distintos, juntos conocen sitios de interés, relatos,
-                            tradiciones y al tesoro más grande del país: su gente.
-                        </p>
-
-
-                        <a href="tono.html" class="btn btn-dark btn-lg rounded-pill w-75">
-                            <strong>¡Conoce a mis amigos!</strong>
-                        </a>
-                    </div>
-                    <div class="form-group col-xl-6 col-lg-6 col-md-6 d-flex justify-content-center">
-                        <div><img src="images/inicio/T3.png" class="img-fluid" alt=""></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid d-xl-none d-lg-none d-md-none d-block">
-            <div class="container">
-                <div class="form-row my-5">
-                    <div class="form-group col-12">
-                        <h2><strong>¡Conoce al Mariachi!</strong></h2>
-                        <p>
-                            Movido por su amor a la música —iy pa' completar la
-                            quincena!-, Toño viaja por toda la República con el
-                            mariachi que formó con parientes y amigos. Aunque son
-                            muy distintos, juntos conocen sitios de interés, relatos,
-                            tradiciones y al tesoro más grande del país: su gente.
-                        </p>
-
-
-                    </div>
-                    <div class="form-group  col-12 d-flex justify-content-center">
-                        <div> <img src="images/inicio/T3.png" class="img-fluid" alt=""></div>
-                    </div>
-
-                    <div class="form-group col-md-6 offset-md-3">
-                        <a href="tono.html" class="btn btn-dark btn-md rounded-pill w-100">
-                            <strong>
-                                ¡Conoce a mis amigos!
-                            </strong>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <img src="images/inicio/BG3YellowBottom.svg" alt="" class="w-100 d-none d-xl-block">
-        <img src="images/inicio/GB2R.png" alt="" class="w-100 d-block  d-xl-none">
-    </section>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -421,98 +272,22 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center ">
-                    <h5 class="modal-title"><strong>MENÚ</strong></h5>
-                </div>
-                <div class="modal-body">
-                    <a href="index.html" type="button" class="btn w-100">INICIO</a>
-                    <a href="tono.html" type="button" class="btn w-100">¿QUIEN ES TOÑO?</a>
-                    <a href="personajes.html" type="button" class="btn w-100">PERSONAJES</a>
-                    <a href="anunciate.html" type="button" class="btn w-100">ANUNCIATE</a>
-                    <a type="button" class="btn w-100" data-target="#modalContacto" data-toggle="modal"
-                        data-dismiss="modal">CONTACTO</a>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger w-100" data-dismiss="modal">
-                        <i class="fas fa-times"></i>
-                    </button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h5 class="modal-title"><strong>CONTÁCTANOS</strong></h5>
-                </div>
-                <div class="modal-body">
-
-
-
-                    <form action="enviar.php" method="post">
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <label for="inputEmail4">Nombre completo</label>
-                                <input type="text" class="form-control" id="name" name="name">
-                            </div>
-                            <div class="form-group col-md-12">
-                                <label for="inputPassword4">Correo electrónico</label>
-                                <input type="text" class="form-control" id="mail" name="mail">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputAddress">Teléfono</label>
-                            <input type="email" class="form-control" id="phone" name="phone" placeholder=""">
-                        </div>
-                        <div class=" form-group">
-                            <label for="inputAddress2">Mensaje</label>
-                            <textarea class="form-control" aria-label="With textarea" id="message"
-                                name="message"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-success w-100" data-dismiss="modal">
-                            ENVIAR <i class="fas fa-send"></i>
-                        </button>
-
-                    </form>
-
-
-
-
-                </div>
-
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-success w-100" data-dismiss="modal">
-                        ENVIAR <i class="fas fa-send"></i>
-                    </button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
     <script src="js/main.js"></script>
 
-</body>
 
+
+
+
+</body>
 
 </html>

@@ -30,7 +30,11 @@ section .section-title {
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: transparent;
+}
+
+.image-flip p {
+    font-size: 1em;
 }
 
 .image-flip:hover .backside,
@@ -76,7 +80,7 @@ section .section-title {
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background: transparent;
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);

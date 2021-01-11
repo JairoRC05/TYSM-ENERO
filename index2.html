@@ -17,13 +17,6 @@
 </head>
 
 <body>
-    <div class="charger" id="charger">
-        <div class="preloader">
-            <p>Cargando</p>
-        </div>
-    </div>
-
-
     <header class="head-main fixed-top ">
         <div class="navbar navbar-dark box-shadow bg-color" id="navbar">
             <div class="container d-flex justify-content-between ">
@@ -39,12 +32,21 @@
         <div class="fixed-top main-menu">
             <div class="flex-center p-5">
                 <ul class="nav flex-column">
-                    <li class="nav-item delay-1"><a class="nav-link hvr-pulse" href="#">
-                            INICIO</a></li>
-                    <li class="nav-item delay-1"><a class="nav-link hvr-pulse" href="#">TOÑO</a></li>
-                    <li class="nav-item delay-2"><a class="nav-link hvr-pulse" href="#">PERSONAJES</a></li>
-                    <li class="nav-item delay-3"><a class="nav-link hvr-pulse" href="#">ANUNCÍATE</a></li>
-                    <li class="nav-item delay-4"><a class="nav-link hvr-pulse" href="#">CONTACTO</a></li>
+                    <li class="nav-item delay-1">
+                        <a class="nav-link hvr-pulse" href="index.html"> INICIO</a>
+                    </li>
+                    <li class="nav-item delay-1">
+                        <a class="nav-link hvr-pulse" href="personajes2.html">TOÑO</a>
+                    </li>
+                    <li class="nav-item delay-2">
+                        <a class="nav-link hvr-pulse" href="#">PERSONAJES</a>
+                    </li>
+                    <li class="nav-item delay-3">
+                        <a class="nav-link hvr-pulse" href="#">ANUNCÍATE</a>
+                    </li>
+                    <li class="nav-item delay-4">
+                        <a class="nav-link hvr-pulse" href="#">CONTACTO</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -55,16 +57,15 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img alt="First slide" class="d-none d-md-none d-lg-block d-xl-block w-100"
-                    src="images/Banner/cuarto-tono.png">
+                    src="images/Banner/cuarto-tono.png" loading="lazy">
                 <img alt="First slide" class="d-block d-md-block d-lg-none d-xl-none w-100"
                     src="images/inicio/PortadaTelefono.png">
                 <div class="carousel-caption">
-                    <img alt="First slide" class="img-fluid" src="images/Banner/tono-logo.png">
+                    <img alt="First slide" class="img-fluid" src="images/Banner/tono-logo.png" loading="lazy">
                 </div>
             </div>
         </div>
     </div>
-
 
     <div class="container-fluid d-flex bg-blue">
         <div class="container ">
@@ -116,7 +117,7 @@
     </div>
 
     <div class="container-fluid d-flex">
-        <div class="container ">
+        <div class="container my-5">
             <div class="row d-block">
                 <div class="col-xl-6 col-lg-6 col-md-12 order-2 float-right py-2">
                     <h2><strong>¿Dónde está Toño?</strong></h2>
@@ -271,8 +272,6 @@
         </div>
     </footer>
 
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -287,15 +286,17 @@
 
 
 
-    <script>
-        window.onload = function () {
-            var charger = document.getElementById('charger');
-            charger.style.display = "none";
-
-        }
-    </script>
 
 
 </body>
 
 </html>
+
+
+<div class="col-xl-8 col-lg-8 col-md-12 order-3 float-left py-2 pb-lg-4">
+    <div class="d-flex justify-content-center">
+        <div>
+            <img src="images/anunciate/TM2.png" class="img-fluid" alt="" loading="lazy">
+        </div>
+    </div>
+</div>
