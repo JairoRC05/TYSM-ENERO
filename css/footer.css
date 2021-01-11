@@ -44,13 +44,13 @@
 }
 
 .footer-links a {
-    color: #737373
+    color: #ffffff
 }
 
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-    color: #3366cc;
+    color: #c8ff00;
     text-decoration: none;
 }
 
@@ -156,6 +156,11 @@
 
 .social-icons a.dribbble:hover {
     background-color: #ea4c89
+}
+
+.social-icons a.instagram:hover {
+    background-color: #d6249f;
+    background-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
 }
 
 @media (max-width:767px) {
