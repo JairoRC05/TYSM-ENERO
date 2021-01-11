@@ -61,7 +61,7 @@ p {
 #instagram {
     background: -webkit-linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: black;
 }
 
 
