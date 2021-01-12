@@ -137,6 +137,11 @@
     ;
 }
 
+.bg-darks {
+    background: #21293C !important;
+    color: white;
+}
+
 
 .bg-cuarto-lg {
     background-image: url("../images/Banner/cuarto-tono.png");

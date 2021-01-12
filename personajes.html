@@ -42,11 +42,9 @@
                         <a class="nav-link hvr-pulse" href="personajes.html">PERSONAJES</a>
                     </li>
                     <li class="nav-item delay-3">
-                        <a class="nav-link hvr-pulse" href="anunciate.html">Anúnciate</a>
+                        <a class="nav-link hvr-pulse" href="anunciate.html">ANÚNCIATE</a>
                     </li>
-                    <li class="nav-item delay-4">
-                        <a class="nav-link hvr-pulse" href="#">CONTACTO</a>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -74,7 +72,7 @@
                     <div class="container">
                         <h2><strong>¡Conoce al mariachi!</strong></h2>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block">
                             <div class="row">
                                 <div class="col-xl-6 col-12">
@@ -96,7 +94,7 @@
 
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block">
                             <div class="row">
                                 <div class="col-6">
@@ -121,7 +119,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-12">
@@ -146,7 +144,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block ">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-12">
@@ -171,7 +169,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block ">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-12">
@@ -197,7 +195,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block ">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-12">
@@ -220,7 +218,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-12">
@@ -245,7 +243,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="10000">
                         <div class="container p-lg-5 d-none d-xl-block ">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-12">
@@ -875,6 +873,49 @@
             </div>
         </div>
     </footer>
+
+
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center bg-darks">
+                    <h5 class="modal-title"><strong>CONTÁCTANOS</strong></h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form enctype="multipart/form-data" method="post" id="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="email" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" cols="30" rows="3" class="form-control"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" id="enviar" value="Enviar" name="Submit" class="btn btn-success w-100">
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <a data-toggle="modal" data-target="#contacto" class="btn btn-flotante"><i class="fas
+            fa-at fa-2x"></i></i></a>
+
+    <script src="js/jquery.min.js"> </script>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
