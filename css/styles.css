@@ -32,11 +32,12 @@ p {
 
 #facebook strong {
     font-size: 1.8em;
-    color: blue;
+    color: #2D88FF;
 }
 
-#facebook {
-    color: blue;
+#facebook i {
+    color: #2D88FF;
+    font-size: 5.8em;
 }
 
 
@@ -46,27 +47,59 @@ p {
     color: cornflowerblue;
 }
 
-#likes {
+#likes i {
     color: cornflowerblue;
+    font-size: 5.8em;
 }
 
 #instagram strong {
     font-size: 1.8em;
-    /* color: #d6249f;
-    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
     background: -webkit-linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent;
 }
 
-#instagram {
+#instagram i {
     background: -webkit-linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent;
+    font-size: 5.8em;
 }
 
 
 #alcance strong {
     color: #FFBA57;
     font-size: 1.8em;
+}
+
+@media screen and (max-width: 400px) {
+    #instagram strong {
+        font-size: 1.4em;
+    }
+
+    #likes strong {
+        font-size: 1.4em;
+    }
+
+    #facebook strong {
+        font-size: 1.4em;
+    }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    #instagram strong {
+        color: #d6249f !important;
+        -webkit-text-fill-color: #d6249f;
+    }
+
+    #instagram i {
+        color: #d6249f !important;
+        -webkit-text-fill-color: #d6249f;
+
+    }
+
+
 }
