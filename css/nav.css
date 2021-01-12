@@ -50,7 +50,7 @@
 
 
 .navbar-brand {
-
+    color: #FFF;
     font-size: 2em;
     font-weight: 600;
 }
@@ -140,7 +140,6 @@
 .nav-button {
     position: relative;
     z-index: 1111;
-
     border: solid 1px #f8f8f8;
     height: 42px;
     display: block;
