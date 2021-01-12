@@ -4,8 +4,8 @@
     opacity: 0;
     visibility: hidden;
     clip-path: circle(0%);
-
 }
+
 
 
 .nav-open .main-menu {
@@ -21,13 +21,18 @@
 
 
 
+
+
+
+
+
 @keyframes circle {
     0% {
-        clip-path: circle(75%);
+        clip-path: circle(125.6% at 99% 3%);
     }
 
     100% {
-        clip-path: circle(2%);
+        clip-path: circle(11.9% at 99% 3%);
     }
 }
 
