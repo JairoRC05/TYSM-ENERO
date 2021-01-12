@@ -25,25 +25,30 @@
                     contentType: false,
                     processData: false
                 }).done(function () {
-                    alert('! Email Enviado Existosa mente !');
-                    consoloe.log('Enviado');
+Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: '¡Correo enviado exitosamente!',
+  text: "Pronto nos pondremos en contacto contigo",
+  showConfirmButton: false,
+  timer: 3500
+})
+
+ $('#form').trigger("reset");
+                    
                 }).fail(function (error) {
-                    alert('Error ... ' + JSON.stringify(error));
+                    Swal.fire({
+  position: 'top-end',
+  icon: 'error',
+  title: 'Algo salio mal!',
+  showConfirmButton: false,
+  timer: 3500,
+  footer: '<p>Verifica que cuentes con conexión a internet <i class="fas fa-wifi"></i></p>'
+})
                 });
             });
 
         });
-      
-
-
-
-
-          $(window).on('load', function () {
-            setTimeout(function () {
-                $(".loader-page").css({
-                    visibility: "hidden",
-                    opacity: "0"
-                })
-            }, 100);
-
-        });
+       
+//Loader
+       

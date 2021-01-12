@@ -19,13 +19,6 @@
 
 
 
-
-
-
-
-
-
-
 @keyframes circle {
     0% {
         clip-path: circle(125.6% at 99% 3%);
@@ -57,7 +50,7 @@
 
 
 .navbar-brand {
-    color: #FFF;
+
     font-size: 2em;
     font-weight: 600;
 }
