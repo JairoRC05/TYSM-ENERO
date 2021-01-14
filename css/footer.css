@@ -44,13 +44,13 @@
 }
 
 .footer-links a {
-    color: #ffffff
+    color: #737373
 }
 
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-    color: #c8ff00;
+    color: #3366cc;
     text-decoration: none;
 }
 
