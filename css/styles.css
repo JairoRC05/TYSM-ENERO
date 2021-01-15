@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;800&display=swap');
-
 @import url('nav.css');
 @import url('footer.css');
 @import url('buttons.css');
@@ -13,7 +12,7 @@
 @import url('hover-min.css');
 @import url('btn-float.css');
 @import url('AOS.css');
-@import url('fontawesome.css');
+@import url('jumbotron.css');
 
 
 
@@ -100,7 +99,6 @@ p {
     #instagram i {
         color: #d6249f !important;
         -webkit-text-fill-color: #d6249f;
-
     }
 
 
