@@ -13,6 +13,7 @@
 @import url('btn-float.css');
 @import url('AOS.css');
 @import url('jumbotron.css');
+@import url('social.css');
 
 
 
@@ -102,4 +103,27 @@ p {
     }
 
 
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+
+.text-black {
+    color: #000 !important;
+}
+
+
+
+
+.bg-blues {
+    background-color: #21293C !important;
 }
