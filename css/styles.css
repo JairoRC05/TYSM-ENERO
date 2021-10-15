@@ -1,129 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;800&display=swap');
-@import url('nav.css');
-@import url('footer.css');
-@import url('buttons.css');
-@import url('backgrounds.css');
-@import url('sizes.css');
-@import url('navbar.css');
-@import url('hamburguer.css');
-@import url('cards.css');
-@import url('charger.css');
-@import url('slider.css');
-@import url('hover-min.css');
-@import url('btn-float.css');
-@import url('AOS.css');
-@import url('jumbotron.css');
-@import url('social.css');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;800&display=swap");
+@import url("nav.css");
+@import url("footer.css");
+@import url("buttons.css");
+@import url("backgrounds.css");
+@import url("sizes.css");
+@import url("navbar.css");
+@import url("hamburguer.css");
+@import url("cards.css");
+@import url("charger.css");
+@import url("slider.css");
+@import url("hover-min.css");
+@import url("btn-float.css");
+@import url("AOS.css");
+@import url("jumbotron.css");
+@import url("social.css");
 
 * {
-    font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
-
 h2 {
-    line-height: 1.8em;
+  line-height: 1.8em;
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 2.1em;
+  font-size: 1.2em;
+  line-height: 2.1em;
 }
 
-
 #facebook strong {
-    font-size: 1.8em;
-    color: #2D88FF;
+  font-size: 1.8em;
+  color: #2d88ff;
 }
 
 #facebook i {
-    color: #2D88FF;
-    font-size: 5.8em;
+  color: #2d88ff;
+  font-size: 5.8em;
 }
 
-
-
 #likes strong {
-    font-size: 1.8em;
-    color: cornflowerblue;
+  font-size: 1.8em;
+  color: cornflowerblue;
 }
 
 #likes i {
-    color: cornflowerblue;
-    font-size: 5.8em;
+  color: cornflowerblue;
+  font-size: 5.8em;
 }
 
 #instagram strong {
-    font-size: 1.8em;
-    background: -webkit-linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 1.8em;
+  background: -webkit-linear-gradient(
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #instagram i {
-    background: -webkit-linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 5.8em;
+  background: -webkit-linear-gradient(
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.8em;
 }
 
-
 #alcance strong {
-    color: #FFBA57;
-    font-size: 1.8em;
+  color: #ffba57;
+  font-size: 1.8em;
 }
 
 @media screen and (max-width: 400px) {
-    #instagram strong {
-        font-size: 1.4em;
-    }
+  #instagram strong {
+    font-size: 1.4em;
+  }
 
-    #likes strong {
-        font-size: 1.4em;
-    }
+  #likes strong {
+    font-size: 1.4em;
+  }
 
-    #facebook strong {
-        font-size: 1.4em;
-    }
-
-
+  #facebook strong {
+    font-size: 1.4em;
+  }
 }
-
 
 @media screen and (max-width: 900px) {
-    #instagram strong {
-        color: #d6249f !important;
-        -webkit-text-fill-color: #d6249f;
-    }
+  #instagram strong {
+    color: #d6249f !important;
+    -webkit-text-fill-color: #d6249f;
+  }
 
-    #instagram i {
-        color: #d6249f !important;
-        -webkit-text-fill-color: #d6249f;
-    }
-
-
+  #instagram i {
+    color: #d6249f !important;
+    -webkit-text-fill-color: #d6249f;
+  }
 }
-
 
 .card:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
-
 
 .bg-black {
-    background-color: #000 !important;
+  background-color: #000 !important;
 }
-
 
 .text-black {
-    color: #000 !important;
+  color: #000 !important;
 }
 
-
-
-
 .bg-blues {
-    background-color: #21293C !important;
+  background-color: #21293c !important;
 }
