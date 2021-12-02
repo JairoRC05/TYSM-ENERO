@@ -137,6 +137,10 @@
     color: #FFD1E6 !important;
 }
 
+.bg-w.scrolled{
+    background: #fff !important;
+}
+
 .bg-darks {
     background: #21293C !important;
     color: white;
